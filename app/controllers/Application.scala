@@ -10,6 +10,7 @@ class Application extends Controller {
   }
 
   def redirectDocs = Action {
-    Redirect("/assets/lib/swagger-ui/index.html?/url=http://localhost:9000/swagger.json")
+    // localhost should change to the url you are using in order for the whole Demo working.
+    Redirect("/assets/lib/swagger-ui/index.html?/url=http://localhost:9000/swagger.json") 
   }
 }
